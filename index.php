@@ -135,7 +135,7 @@
 									echo "<p>";
 								}
 
-								// Save new comments when submitted test
+								// Save new comments when submitted 
 								$mess = $_POST['message'];
 								$pattern = "/http|www/i";
 								if (preg_match($pattern, $mess)==0) {
