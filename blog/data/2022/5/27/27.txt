@@ -1,0 +1,15 @@
+Iuri and his family came for a vist. Iuri ended up sleeping over. We read the begining of the tell tale heart before bed.
+1.jpg
+
+
+
+
+Redesigned the site banner
+<br> I wonder if I should bother designing my own poll or just use this other websites poll 
+
+
+
+<center>
+<form method="post" action="https://poll.pollcode.com/62876786"><div style="background-color:#EEEEEE;padding:2px;width:175px;font-family:Arial;font-size:small;color:#000000;"><div style="padding:2px 0px 4px 2px;"><strong>What do you like best?</strong></div><input type="radio" name="answer" value="1" id="answer628767861" style="float:left;" /><label for="answer628767861" style="float:left;width:150px;">Apples</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="2" id="answer628767862" style="float:left;" /><label for="answer628767862" style="float:left;width:150px;">Oranges</label><div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="3" id="answer628767863" style="float:left;" /><label for="answer628767863" style="float:left;width:150px;">Pears</label><div style="clear:both;height:2px;"></div><div align="center" style="padding:3px;"><input type="submit" value=" Vote ">&nbsp;<input type="submit" name="view" value=" View "></div></div></form>
+</center>
+<br> The last thing I gotta do is get comments

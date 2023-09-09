@@ -1,0 +1,4 @@
+Soldered all the connections so I don't have to use the breadboard.
+1.jpeg
+The wires are all tucked behind it. The battery is not connected. I was having issues with my soldering gun.
+I think the tip has been oxidized so I ordered a replacement. All my code works and I'm logging data. 

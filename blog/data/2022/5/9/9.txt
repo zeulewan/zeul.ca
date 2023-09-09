@@ -1,0 +1,13 @@
+    I went to hang out with my nani and nanu in brampton today. 
+1.JPG
+    Toby was there too.
+2.JPG
+    Then I hung out with john.
+3.JPG
+    I seperated all my blog posts from the index.php file (I started using PHP). 
+    Then I made it automatically insert the date and apply formatting to each post. 
+    I also made it so that all I have to do is type the name of the file I want to
+    use for an image and it automatically inserts it. 
+    It was quite hard to do all this, it included using loops switches and functions
+    with recursion. The code is on my <a href="https://github.com/Zeulewan/zeulewan.com"><font color="#1187FC">GitHub</font></a> 
+    if you want to take a look. I'll make a video explaining it all in detail. See ya l8r!

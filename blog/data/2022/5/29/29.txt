@@ -1,0 +1,4 @@
+I bought a glass bed for my 3D printer, and after a struggling with bed adhesion for a long time, I cleaned it with rubbing alcohol. This is the only thing that worked. Changing temperature no difference. Decreasing initial layer speed helped a bit. (I'm using PLA btw)
+1.jpg
+In this picture my ender 3 is printing a holder for a remote for a light switch.
+

@@ -1,0 +1,2 @@
+john
+so i like the comment business a lot, but what if there was a wee comment button instead of showing the text box right away?

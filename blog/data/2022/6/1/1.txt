@@ -1,0 +1,2 @@
+This is a new month which means if I correctly programmed this, the blog archive which is located at the <s>bottom</s> top of this page should have a new button for this month.<br>
+<br>Just tested it out and yeah I have some bugs to fix lol.

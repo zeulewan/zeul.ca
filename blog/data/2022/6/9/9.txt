@@ -1,0 +1,9 @@
+I spent today learning about arduinos. I bought an arduino pro mini and an accelerometer for my 
+<a href="projects/archive/2022/6/6/drag_coef.php"><font color="#1187FC">drag coefficient project</font></a>.
+1.gif
+The graph above shows the acceleration due to gravity.
+The lines show the different axes (one of the lines is too light to see).
+As I rotate the accelerometer different lines get higher because relative to the accelerometer, 
+the gravity is changing directions. What's neat is that the accelerometer is what I'd call "Einsteinian" by default.
+The acceleration points upwards when at rest with respect to the surface of the earth, which you could say acknowledges relativity.
+You can program it to remove the acceleration upwards to make it "Newtonian." 

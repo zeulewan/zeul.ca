@@ -1,0 +1,41 @@
+Calculating the Drag coefficient
+
+Started using OpenRocket to simulate launches. 
+Very exited about this software! 
+1.jpg
+I'm going to try to replicate the results by hand with equations. 
+I could save a lot of time by taking the drag coefficient from the software.
+It'd be a hard thing to experientially calculate myself. It'd involve doing a bunch of launches,
+getting an accelerometer, an altimeter and a clock that all sync up, and even doing some calculus.
+
+To find the drag coefficient you need:<br> <br> 
+
+1. Drag force<br> 
+2. Mass density of the fluid<br>
+3. Flow speed of the object relative to the fluid<br>
+4. Reference area<br>
+<br>
+
+
+The speed after engine burn <s>(which I could just approximate using a video)</s>, and the apogee altitude would tell me how much work was done
+by air resistance (That is if I calculate how high it would have gone neglecting air resistance, and compare).
+Given the work done I could calculate the average force on it, which would give me an approximation. 
+I could also just use the accelerometer to see how fast it is decelerating, factor out gravity, use the mass of the rocket and there I go I got the drag force.
+<br><br>
+The mass density of the fluid is the the density of air, the flow speed is
+just going to be how fast the rocket is going (which is why I should try to measure the speed of the rocket close to the ground), and the reference area is 
+just the cross-sectional area which I'm actually not sure how to calculate. I don't know if it's an average, or just the area of the widest part of the rocket or somthing. 
+<br><br>
+Wired up some Arduino parts I got. This is my first project on a bread board. I got a pro mini, an MPU 9255, sd card reader and a USB connector. 
+2.JPG
+Currently working on logging data.
+<br><br>
+Soldered all the connections, got a regulator to down step the 9 volt, and am logging data just as I need.
+2.jpg
+I used stranded wires and they broke non stop. I switched to solid core wires and I mounted everything on a chassis.
+3.jpg
+4.jpg
+pro tip: get solder with a thinner diameter when working on little things like this. <br><br>
+The apogee was 73 meters. The drag coefficient of the rocket is 0.13. It was 320 grams with the computer and motor.
+graph1.png graph2.png
+rocket.jpg

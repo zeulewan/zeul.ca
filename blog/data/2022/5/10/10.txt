@@ -1,0 +1,5 @@
+I created the blog archive (check the bottom of this page). I gotta get this website to
+the point where I can use it long term and not have it break. I had to make sure that only a 
+certain amount of blog posts load at a time. I capped it at one month of posts. The last
+thing I'm gonna do to this site before I move on to another project for a bit is to create
+the thoughts section. 

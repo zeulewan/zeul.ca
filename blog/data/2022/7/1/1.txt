@@ -1,0 +1,2 @@
+I have just completed my drag coefficient project. My calculations concluded it to be 0.13. 
+There is quite a bit of room for error (which I'll calculate) but I understand the process now. I will update the project page soon.

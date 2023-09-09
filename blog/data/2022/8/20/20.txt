@@ -1,0 +1,1 @@
+I tweaked how the comments work. I'm going to remove the ability to comment from the archive so that way the archive is just an archive. All times are EST by the way.

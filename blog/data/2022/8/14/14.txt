@@ -1,0 +1,1 @@
+I now have a comment system working! Like always, I coded it from scratch in php. I still have to make it look nice and everything but its pretty great! (It's also only in the blog archive rn but I can add it to the main blog page easily)

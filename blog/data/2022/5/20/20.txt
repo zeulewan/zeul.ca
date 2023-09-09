@@ -1,0 +1,7 @@
+What is going on, It's John<br>
+Presently hacking Zeul's site<br>
+Except not really cause he legit gave me his password (I created a DMZ and set up remote SSH)<br>
+This server is highly insecure tho<br>
+Chances are<br>
+This will be a member of a botnet before the year is through<br>
+Zeul's Pi is gonna get pwned<br>

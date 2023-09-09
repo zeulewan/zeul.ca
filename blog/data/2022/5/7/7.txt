@@ -1,0 +1,6 @@
+Hung out with the KLNFC tonight, we watched the fifth starwars and chatted the whole time. The way to get people to smile
+	is to say "let's take one smiling picture and one serious picture!" (I never took the serious picture)
+1.JPG
+	I got my site to the point where I'm pretty happy with how it looks I'll put a picture here to remember where I'm at:
+2.png
+	I gotta make it so that all I gotta do is paste a text file into the html directory and it'll automatically make a new blog post for me.
