@@ -166,7 +166,7 @@
 					// Replace any occurrences of [word].[extension] with the image URL format
 					$text = preg_replace('/([a-zA-Z0-9]+)\.(jpg|jpeg|png|gif)/i', "</p><img src='blog/data/$year/$month/$day/$1.$2'><p>", $text);
 					
-					// Return the updated text
+					// Return the updated texts
 					return $text;
 				}
 			?>
