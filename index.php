@@ -50,7 +50,7 @@
      			Hi, my name is Zeul, and this is my website.
 				I am an aerospace engineering student at TMU. This
 				website is a place to put random things that I do. This website is on 
-				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a> !
+				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>!
 				<br><br>
 				<img src="media/portrait.jpg" style="max-width:600px;width:100%" alt="image not found">
 			</div>	
@@ -126,19 +126,32 @@
 									if (!file_exists("blog/data/$year/$month/$day/comments/$cmnt.txt")) {
 										break;
 									} 
-									$comment = file_get_contents("blog/data/$year/$month/$day/comments/$cmnt.txt");
-									echo "</p>";
-									$fh = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'r');
-									$pageText = fread($fh, 25000);
-									echo nl2br($pageText);
-									echo "<br>";
-									echo date ("F jS Y g:i A", filemtime("blog/data/$year/$month/$day/comments/$cmnt.txt"));
-									echo "<p>";
+
+									$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+
+										// Read and print the first line
+										echo "</p>";
+										$line1 = fgets($file);
+										echo "Name: ";
+										echo $line1;
+										echo "<br>";
+									
+										// Read and print the second line
+										$line2 = fgets($file);
+										echo "Message: ";
+										echo $line2;
+										echo "<p>";
+
+										// Close the file
+										fclose($file);
+
+									
 								}
 
 								// Save new comments when submitted 
-								$mess = $_POST['message'];
-								$pattern = "/http|www/i";
+								$mess = $_POST['message']; // These
+								$pattern = "/http|www/i";  // lines get rid of scammers
+
 								if (preg_match($pattern, $mess)==0) {
 									$d = htmlspecialchars($_POST['day']);
 									$m = htmlspecialchars($_POST['month']);
