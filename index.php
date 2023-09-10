@@ -118,7 +118,8 @@
 											<input type=submit value=Submit>
 										</form>		
 									</div>";	
-									
+									echo "<br>";
+
 								}
 
 								// Loop through and display comments
@@ -162,15 +163,30 @@
 									$y = htmlspecialchars($_POST['year']);
 									if ($d==$day && $m==$month && $y==$year) {
 										$texts = array(htmlspecialchars($_POST['name']), htmlspecialchars($_POST['message']), date("Y-m-d H:i:s"));
-										echo '<p>';
-										echo implode('<br>', $texts);
+										implode('<br>', $texts);
 										file_put_contents("blog/data/$year/$month/$day/comments/$cmnt.txt", implode(PHP_EOL, $texts));
+										$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+										
+										echo "<p class='commenttext '>";
+								
+										$line1 = fgets($file);
+										
+										echo "<b>";
+										echo $line1;
+										echo "</b>";
+										echo "<br>";
+									
+										// Read and print the second line
+										$line2 = fgets($file);
+										echo $line2;
+										echo "</p>";
 
+										// Close the file
+										fclose($file);
 
-										echo '<br>';
 									}	
 								}	
-								echo ("</p> </div> ");
+								echo ("</div> ");
 								$post_counter++;
 								if ($post_counter>=10) {
 									break 3;
