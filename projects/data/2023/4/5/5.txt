@@ -1,0 +1,5 @@
+Walking Robot
+<br><br>
+
+I built this for class. Fully custom 3d printed out of PLA on my ender 3 pro.
+1.gif
