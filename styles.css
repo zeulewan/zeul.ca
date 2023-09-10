@@ -6,7 +6,6 @@
   max-width: 200px;
 }
 
-
 .header {
   display: flex;
   justify-content: space-around;
@@ -15,11 +14,9 @@
 }
 
 @media screen and (max-width: 500px) {
-
    .header {
     display: block;
   }
-
 }
 
 .button {
@@ -30,7 +27,6 @@
 
 .active[data-tab-content] {
   display: block;
-  
 }
 
 .tabs {
@@ -44,7 +40,6 @@
 }
 
 .tab {
-
   border-radius: 10px;
   cursor: pointer;
   padding: 10px;
@@ -52,13 +47,11 @@
   transition: all 100ms;
 }
 
-
 .tab:hover {
   background: linear-gradient(180deg,  #32546D 0%, #194360 100%);
   border-radius: 10px;
   transform: translateY(-1px);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
 }
 
 .tab:active {
@@ -66,16 +59,13 @@
   border-radius: 10px;
   transform: translateY(0);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
 }
 
 .tab.active {
   background: linear-gradient(180deg,  #32546D 0%, #194360 100%);
   border-radius: 10px;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
 }
-
 
 .tab-content {
   margin-left: 20px;
@@ -88,7 +78,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #08253A;
-  
 }
 
 /* Header/Logo Title */
@@ -103,26 +92,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
 }
 
 /* Page Content */
 .content {padding:0px;}
 
-
-
-
 b{
   margin: 0px;
   padding: 0px;
-
 }
-
 
 h1 {text-align: center;
   color:#E7F5FE;
 }
-
 
 h4{
 text-align: center;
@@ -131,8 +113,6 @@ text-align: center;
 
 p {
   text-align: center;
-
-  
   padding: 0px;
   margin: 20px;	
   margin-left: 0px;
@@ -143,10 +123,7 @@ p {
   text-align: left;
 }
 
-
-
 div {text-align: center;}
-
 
 #blog {
   border: 2px ;
@@ -159,7 +136,6 @@ div {text-align: center;}
   padding-top: 1px;
   padding-bottom: 1px;
   
-
   max-width: 800px;
   margin: auto;			  
   color:#E7F5FE;
@@ -173,9 +149,7 @@ div {text-align: center;}
   max-width: 800px;
   margin: auto;			  
   color:#E7F5FE;
-
 }
-
 
 img{
   max-width: 100%;
@@ -187,7 +161,6 @@ img{
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
 }
 
 .center {
@@ -199,7 +172,6 @@ img{
 .button-10 {
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 
-  
   align-items: center;
   padding: 6px 14px;
   font-family: Arial;
@@ -218,53 +190,11 @@ img{
 
 .button-10:hover {
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
   cursor: pointer;
   transform: translateY(-1px);
 }
 
 .button-10:active {
   background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
-  
-
   transform: translateY(0);
 }
-
-
-
-
-
-/*
-#myBtn {
-  transition: all 100ms;
-  color: #fff;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background: linear-gradient(180deg,  #32546D 0%, #194360 100%);
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  
-}
-
-#myBtn:hover {
-  background-color: linear-gradient(180deg, #32546D 0%, #194360 100%);
-  transform: translateY(-1px);
-}
-
-#myBtn:active {
-  background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
-  transform: translateY(0);
-}
-
-div.b {
-  text-align: left;
-}
-*/
-

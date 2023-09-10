@@ -107,17 +107,17 @@
 								} else {
 									// Display the comment form
 									echo "<div class='comment'>
-										<form method=post>
-											Comment: <br>
-											<input type=text name='name' placeholder='Name' required><br>
-											<input type=text name='message' placeholder='Message' required><br>
-											<input type=hidden name=day value=${day}>
-											<input type=hidden name=month value=${month}>
-											<input type=hidden name=year value=${year}>
-											<input type=hidden name=time value=${time}>
-											<input type=submit value=Submit>
-										</form>		
-									</div>";	
+											<form method=post>
+												Comment: <br>
+												<input type=text name='name' placeholder='Name' required><br>
+												<input type=text name='message' placeholder='Message' required><br>
+												<input type=hidden name=day value=${day}>
+												<input type=hidden name=month value=${month}>
+												<input type=hidden name=year value=${year}>
+												<input type=hidden name=time value=${time}>
+												<input type=submit value=Submit>
+											</form>		
+										</div>";	
 									echo "<br>";
 
 								}
@@ -133,10 +133,8 @@
 										// Read and print the first line
 										echo "<p class='commenttext '>";
 
-										
 										$line1 = fgets($file);
 										
-
 										echo "<b>";
 										echo $line1;
 										echo "</b>";
@@ -150,7 +148,6 @@
 										// Close the file
 										fclose($file);
 
-									
 								}
 
 								// Save new comments when submitted 

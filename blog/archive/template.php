@@ -51,19 +51,15 @@
 	</div>
 
   	<div class="tab-content">
-    		
+
 				<font face="Arial" color="#E7F5FE">
 				<br>
-
 				<?php 
-                    
 							for ($day=1; $day<= 31; $day++) 
 							{		
-								
 								$pagecontents = file_get_contents("../data/$year/$month/$day/$day.txt");
 								if ($pagecontents!=null)
 								{
-
 									echo ("<div id='blog'> <p>");
 
 									$date = date_create("$year-$month-$day");
@@ -72,9 +68,7 @@
 
 									echo ("</p> <p>");
 
-
 									$pagecontents = file_get_contents("../data/$year/$month/$day/$day.txt");
-									
 
 									//echos the blog post with applied formatting
 									echo replaceImageKeywords($pagecontents, $year, $month, $day);
@@ -86,7 +80,6 @@
 										echo '<hr>';
 									} 
 
-
 									for ($cmnt=1; $cmnt<=10; $cmnt++)
 									{
 										if (!file_exists("../data/$year/$month/$day/comments/$cmnt.txt"))
@@ -95,8 +88,6 @@
 										} 
 										$comment = file_get_contents("../data/$year/$month/$day/comments/$cmnt.txt");
 										
-										
-										
 										echo "<br>";
 										$fh = fopen("../data/$year/$month/$day/comments/$cmnt.txt", 'r');
 										$pageText = fread($fh, 25000);
@@ -104,10 +95,8 @@
 										echo "<br>";
 										echo date ("F jS Y g:i A", filemtime("../data/$year/$month/$day/comments/$cmnt.txt"));
 
-
 										echo "<br>";
 									}
-									
 									
 									echo ("</p></div><br>");
 								}
