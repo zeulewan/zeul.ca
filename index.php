@@ -127,20 +127,24 @@
 										break;
 									} 
 
-									$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+										$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
 
 										// Read and print the first line
-										echo "</p>";
+										echo "<p class='commenttext '>";
+
+										
 										$line1 = fgets($file);
-										echo "Name: ";
+										
+
+										echo "<b>";
 										echo $line1;
+										echo "</b>";
 										echo "<br>";
 									
 										// Read and print the second line
 										$line2 = fgets($file);
-										echo "Message: ";
 										echo $line2;
-										echo "<p>";
+										echo "</p>";
 
 										// Close the file
 										fclose($file);
@@ -157,12 +161,13 @@
 									$m = htmlspecialchars($_POST['month']);
 									$y = htmlspecialchars($_POST['year']);
 									if ($d==$day && $m==$month && $y==$year) {
-										$texts = array(htmlspecialchars($_POST['name']), htmlspecialchars($_POST['message']));
+										$texts = array(htmlspecialchars($_POST['name']), htmlspecialchars($_POST['message']), date("Y-m-d H:i:s"));
 										echo '<p>';
 										echo implode('<br>', $texts);
 										file_put_contents("blog/data/$year/$month/$day/comments/$cmnt.txt", implode(PHP_EOL, $texts));
+
+
 										echo '<br>';
-										echo date ("F jS Y g:i A", filemtime("blog/data/$year/$month/$day/comments/$cmnt.txt"));
 									}	
 								}	
 								echo ("</p> </div> ");

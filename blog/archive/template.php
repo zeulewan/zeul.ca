@@ -52,17 +52,14 @@
 
   	<div class="tab-content">
     		
-		
 				<font face="Arial" color="#E7F5FE">
 				<br>
 
 				<?php 
                     
-									
 							for ($day=1; $day<= 31; $day++) 
 							{		
 								
-
 								$pagecontents = file_get_contents("../data/$year/$month/$day/$day.txt");
 								if ($pagecontents!=null)
 								{
