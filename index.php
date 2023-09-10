@@ -49,7 +49,8 @@
 			<div id="otherformat">
      			Hi, my name is Zeul, and this is my website.
 				I am an aerospace engineering student at TMU. This
-				website is a place to put random things that I do.
+				website is a place to put random things that I do. This website is on 
+				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a> !
 				<br><br>
 				<img src="media/portrait.jpg" style="max-width:600px;width:100%" alt="image not found">
 			</div>	
@@ -178,7 +179,7 @@
       		<h1>Projects</h1>
 			<?php 
 				// Loop through projects dynamically
-				for ($year=date("Y"); $year>=2021; $year--) {
+				for ($year=date("Y"); $year>=2019; $year--) {
 					if (is_dir("projects/data/$year")) {
 						for ($month=12; $month>=1; $month--) {
 							if (is_dir("projects/data/$year/$month")) {
@@ -190,17 +191,17 @@
 										}
 
 										$date = date_format(date_create("$year-$month-$day"), "F jS Y");
-										
-										$f = fopen("projects/data/$year/$month/$day/$bname.txt", 'r');
-										$line1 = fgets($f);
-										fclose($f);
+										$title_text = str_replace('_', ' ', $bname);
+										//$f = fopen("projects/data/$year/$month/$day/$bname.txt", 'r');
+										//$line1 = fgets($f);
+										//fclose($f);
 
 										// Check if the thumbnail exists for the project, display accordingly
 										if (file_exists("projects/data/$year/$month/$day/thumbnail.jpg")) {
 											echo("<button class='button-10' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">   
-											<img src='projects/data/$year/$month/$day/thumbnail.jpg' class='thumbnail'><br>$line1 <br>$date</button> ");
+											<img src='projects/data/$year/$month/$day/thumbnail.jpg' class='thumbnail'><br>$title_text<br>$date</button> ");
 										} else {
-											echo("<button class='button-10' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\"> $line1 <br>$date</button> ");
+											echo("<button class='button-10' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
 										}
 										echo("<br> <br>");
 									}
@@ -240,7 +241,7 @@
 				<br>
 
 				<b>My GitHub:</b> <br>
-				<a href="https://github.com/Zeulewan"><font color="#1187FC">GitHub</font></a>
+				<a href="https://github.com/zeulewan"><font color="#1187FC">GitHub</font></a>
 			</div>
     	</div>
 		<br>

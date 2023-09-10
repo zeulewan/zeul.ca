@@ -50,27 +50,15 @@
 		$title = "Variables not passed properly";
 	}
 	
-
-
-/*
-        $year = basename(dirname(__FILE__ , 3));
-        $month = basename(dirname(__FILE__ , 2));   
-        $day  = basename(dirname(__FILE__ , 1)); 
-        $title = basename(__FILE__, ".php");
-*/
-
-        $f = fopen("../data/$year/$month/$day/$title.txt", 'r');
-        $line = fgets($f);
-        fclose($f);
         
-
+	   $title_text = str_replace('_', ' ', $title);
 
     ?>
 
 
 	<div class="banner">
 	<br>
-          <h1><?php echo $line?></h1>
+          <h1><?php echo $title_text?></h1>
 		  <br>
 	</div>
 	

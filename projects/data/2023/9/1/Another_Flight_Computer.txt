@@ -1,5 +1,3 @@
-Another Flight Computer 
-<br><br>
 At launch canada in august 2023, Nikolai and I build the flight computer below. It's just an arduino nano 33 BLE sense and an SD card.
 1.jpg
 2.jpeg
