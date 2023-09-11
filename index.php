@@ -106,19 +106,29 @@
 									echo "</p>Max number of comments reached. <p>";
 								} else {
 									// Display the comment form
-									echo "<div class='comment'>
+									echo "
+									
 											<form method=post>
-												Comment: <br>
+
+											<div class='commenttext'>
+												<b>Comment:</b><br>
+											</div>
+
+											<div class='commentinput'>
 												<input type=text name='name' placeholder='Name' required><br>
 												<input type=text name='message' placeholder='Message' required><br>
+											</div>
+									
 												<input type=hidden name=day value=${day}>
 												<input type=hidden name=month value=${month}>
 												<input type=hidden name=year value=${year}>
 												<input type=hidden name=time value=${time}>
+
 												<input type=submit value=Submit>
+												
+
 											</form>		
-										</div>";	
-									echo "<br>";
+										";	
 
 								}
 

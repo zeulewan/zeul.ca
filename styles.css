@@ -123,6 +123,78 @@ p {
   text-align: left;
 }
 
+.commentinput {
+  text-align: center;
+  margin-right: 10px;
+
+}
+/* 
+.commentsubmit {
+  text-align: right;
+}
+*/
+
+
+/* Style form labels and input fields 
+label {
+  display: block;
+  margin-bottom: 5px;
+}*/
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.9);
+
+  
+  width: 100%;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  align-items: center;
+  padding: 6px 14px;
+  font-family: Arial;
+  border-radius: 10px;
+  border: none;
+  transition: all 100ms;
+  
+  color: #fff;
+  background: linear-gradient(180deg, #32546D 0%, #194360 100%);
+   background-origin: border-box;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 10px;
+
+}
+
+input[type="submit"]:hover {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+input[type="submit"]:active {
+  background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
+  transform: translateY(0);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+
+
 div {text-align: center;}
 
 #blog {
@@ -131,6 +203,8 @@ div {text-align: center;}
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
   
   padding: 20px;
+  padding-right: 20px;
+
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 
   padding-top: 1px;
