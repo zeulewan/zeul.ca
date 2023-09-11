@@ -22,10 +22,13 @@ I could also just use the accelerometer to see how fast it is decelerating, fact
 <br><br>
 The mass density of the fluid is the the density of air, the flow speed is
 just going to be how fast the rocket is going (which is why I should try to measure the speed of the rocket close to the ground), and the reference area is 
-just the cross-sectional area which I'm actually not sure how to calculate. I don't know if it's an average, or just the area of the widest part of the rocket or somthing. 
+just the cross-sectional area which I'm actually not sure how to calculate. I don't know if it's an average, or just the area of the widest part of the rocket or something. 
 <br><br>
 Wired up some Arduino parts I got. This is my first project on a bread board. I got a pro mini, an MPU 9255, sd card reader and a USB connector. 
 2.JPG
+Got the accelerometer working
+1.gif
+ The graph above shows the acceleration due to gravity. The lines show the different axes (one of the lines is too light to see). As I rotate the accelerometer different lines get higher because relative to the accelerometer, the gravity is changing directions. What's neat is that the accelerometer is what I'd call "Einsteinian" by default. The acceleration points upwards when at rest with respect to the surface of the earth, which you could say acknowledges relativity. You can program it to remove the acceleration upwards to make it "Newtonian." <br>
 Currently working on logging data.
 <br><br>
 Soldered all the connections, got a regulator to down step the 9 volt, and am logging data just as I need.
@@ -34,6 +37,13 @@ I used stranded wires and they broke non stop. I switched to solid core wires an
 3.jpg
 4.jpg
 pro tip: get solder with a thinner diameter when working on little things like this. <br><br>
+This is Eric on the launch pad doing final computer checks
+5.jpg
+Unfortunately the rocket crashed and the data SD card cracked
+2.gif
+I had to partially rebuild the flight computer since the sd card reader and the regulator broke. the housing for the computer broke too so I had to 3d print it again.
+I flew it again and this time the parachute deployed and I recovered the data.
+3.gif
 The apogee was 73 meters. The drag coefficient of the rocket is 0.13. It was 320 grams with the computer and motor.
 graph1.png graph2.png
 rocket.jpg

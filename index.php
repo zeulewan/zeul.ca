@@ -52,7 +52,9 @@
 				website is a place to put random things that I do. This website is on 
 				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>!
 				<br><br>
-				<img src="media/portrait.jpg" style="max-width:600px;width:100%" alt="image not found">
+
+				<a href="blog/data/2022/8/27/1.jpeg"><img src='media/portrait.jpg'></a>
+
 			</div>	
 		</div>
 
@@ -77,9 +79,9 @@
 							$pagecontents = file_get_contents("blog/data/$year/$month/$day/$day.txt");
 							if ($pagecontents!=null) {
 								echo ("<br><div id='blog'> <p>"); 
-								$date=date_create("$year-$month-$day");
-								$test= date_format($date,"F jS Y");
-								echo "<b>$test</b>";
+								
+								//displays the date
+								echo "<b>" . date_format(date_create("$year-$month-$day"), "F jS Y") . "</b>";
 								echo ("</p> <p>");
 								
 								// Function to replace image keywords with actual image tags
@@ -141,7 +143,7 @@
 										$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
 
 										// Read and print the first line
-										echo "<p class='commenttext '>";
+										echo "<p class='commenttext'>";
 
 										$line1 = fgets($file);
 										

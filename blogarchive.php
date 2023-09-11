@@ -18,13 +18,10 @@
 </head>
 <body>
 
-
-
 <div class="banner">
 <h1><br>Blog Archive Menu<br><br></h1>
 </div>
 <div class="tab-content">
-
 
 <div class="center">
 <button class="button-10" role="button" onclick="location.href='../../../'"> Go Back Home </button>
@@ -36,14 +33,12 @@
                         {	
                             if (is_dir("blog/data/$year"))
                             {
-
                                 echo ("<br><div id='blog'> <p>");
                                 echo "<b>$year</b> <br><br>";
                                 for ($month=1; $month<=12; $month++) 
                                 {
                                     if (is_dir("blog/data/$year/$month"))
                                         {
-                                            
                                             $date = date_create("$year-$month-1");
 								            $monthtxt = date_format($date,"F");
                                             echo("<button class='button-10' onclick=\"location.href='blog/archive/template.php?month=$month&year=$year'\">$monthtxt</button> ");

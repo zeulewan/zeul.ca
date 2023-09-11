@@ -52,7 +52,6 @@
 
   	<div class="tab-content">
 
-				<font face="Arial" color="#E7F5FE">
 				<br>
 				<?php 
 							for ($day=1; $day<= 31; $day++) 
@@ -65,40 +64,49 @@
 									$date = date_create("$year-$month-$day");
 									$test= date_format($date,"F jS Y");
 									echo "<b>$test</b>";
-
-									echo ("</p> <p>");
-
-									$pagecontents = file_get_contents("../data/$year/$month/$day/$day.txt");
-
+									echo "<br><br>";
 									//echos the blog post with applied formatting
 									echo replaceImageKeywords($pagecontents, $year, $month, $day);
 
-									$folderPath = "../data/$year/$month/$day/comments"; 
+									
+
+									/*$folderPath = "../data/$year/$month/$day/comments/"; 
 									$files = array_diff(scandir($folderPath), array('.', '..'));
 
 									if (count($files) > 0) {
 										echo '<hr>';
-									} 
-
-									for ($cmnt=1; $cmnt<=10; $cmnt++)
-									{
-										if (!file_exists("../data/$year/$month/$day/comments/$cmnt.txt"))
-										{
-											break;
-										} 
-										$comment = file_get_contents("../data/$year/$month/$day/comments/$cmnt.txt");
-										
-										echo "<br>";
-										$fh = fopen("../data/$year/$month/$day/comments/$cmnt.txt", 'r');
-										$pageText = fread($fh, 25000);
-										echo nl2br($pageText);
-										echo "<br>";
-										echo date ("F jS Y g:i A", filemtime("../data/$year/$month/$day/comments/$cmnt.txt"));
-
-										echo "<br>";
-									}
+									}*/
 									
-									echo ("</p></div><br>");
+										for ($cmnt=1; $cmnt<=10; $cmnt++)
+										{
+											if (file_exists("../data/$year/$month/$day/comments/$cmnt.txt"))
+											{
+												
+											$file = fopen("../data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+
+											// Read and print the first line
+											echo "<p class='commenttext'>";
+
+											$line1 = fgets($file);
+											
+											echo "<b>";
+											echo $line1;
+											echo "</b>";
+											echo "<br>";
+										
+											// Read and print the second line
+											$line2 = fgets($file);
+											echo $line2;
+											echo "</p>";
+
+											// Close the file
+											fclose($file);
+
+											}
+										}
+
+										echo ("</div><br>");
+									
 								}
 							}
 				
@@ -112,7 +120,6 @@
 				?>
 			</div>
 			</div>
-			</font>
   	</div>
 </body>
 </html>

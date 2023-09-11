@@ -5,3 +5,5 @@ At launch canada in august 2023, Nikolai and I build the flight computer below. 
 As the graph shows, the rocket's apogee was 181 meters
 4.png
 5.png
+My next step is to get GPS, and radio working. My next step after that is making a custom PCB. Then my next project after that will be something AI related. I thought the 3B1B python stuff would work but it seems like the project is deprecated. <br>
+I'll update this page when I have progress.

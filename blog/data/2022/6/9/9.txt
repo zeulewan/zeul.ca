@@ -1,5 +1,5 @@
 I spent today learning about arduinos. I bought an arduino pro mini and an accelerometer for my 
-<a href="projects/archive/2022/6/6/drag_coef.php"><font color="#1187FC">drag coefficient project</font></a>.
+<a href="../../projects/archive/template.php?day=6&month=6&year=2022&title=Calculating_the_Drag_Coefficient"><font color="#1187FC">drag coefficient project</font></a>.
 1.gif
 The graph above shows the acceleration due to gravity.
 The lines show the different axes (one of the lines is too light to see).
