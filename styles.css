@@ -272,3 +272,33 @@ img{
   background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
   transform: translateY(0);
 }
+
+.projects {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  align-items: center;
+  padding: 10px;
+  font-family: Arial;
+  border-radius: 10px;
+  border: none;
+  transition: all 100ms;
+  
+  color: #fff;
+  background: linear-gradient(180deg, #32546D 0%, #194360 100%);
+   background-origin: border-box;
+  box-shadow: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.projects:hover {
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
+.projects:active {
+  background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
+  transform: translateY(0);
+}

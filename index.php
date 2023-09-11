@@ -239,12 +239,12 @@
 
 										// Check if the thumbnail exists for the project, display accordingly
 										if (file_exists("projects/data/$year/$month/$day/thumbnail.jpg")) {
-											echo("<button class='button-10' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">   
+											echo("<button class='projects' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">   
 											<img src='projects/data/$year/$month/$day/thumbnail.jpg' class='thumbnail'><br>$title_text<br>$date</button> ");
 										} else {
-											echo("<button class='button-10' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
+											echo("<button class='projects' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
 										}
-										echo("<br> <br>");
+										//echo("<br>");
 									}
 								}
 							}	
