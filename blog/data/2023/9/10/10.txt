@@ -1,4 +1,5 @@
 Made a lot of little improvements to the blog today. I'm trying out having the text justified. The next things to do would be to use javascript for the comments (idk tho because at that point I might as well use SQL) and finally make a custom page for my linktree finally.<br>
 On a different note, I've been doing a lot of arduinoing lately. I bought the nano 33 ble sense for my <a href="../../projects/archive/template.php?day=1&month=9&year=2023&title=Another_Flight_Computer"><font color="#1187FC">Another Flight Computer</font></a>
 project. It looked like a great board but since there is only one hardware serial port and no ability to do software serial, the thing is totally useless because I don't wanna do that canbussing stuff. So I ended up buying the teensy 4.1 which is what Alessandro at MetRocketry is using.
+This is picture of Bao and I holding some arduinos.
 1.jpg
