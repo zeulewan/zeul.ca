@@ -33,7 +33,7 @@
                         {	
                             if (is_dir("blog/data/$year"))
                             {
-                                echo ("<br><div id='blog'> <p>");
+                                echo ("<br><div id='blog'> <br>");
                                 echo "<b>$year</b> <br><br>";
                                 for ($month=1; $month<=12; $month++) 
                                 {
@@ -44,7 +44,7 @@
                                             echo("<button class='button-10' onclick=\"location.href='blog/archive/template.php?month=$month&year=$year'\">$monthtxt</button> ");
                                         }
                                 }
-                                echo("</div>");
+                                echo("<br> <br></div>");
                             }
                                 
                         }

@@ -260,7 +260,7 @@
    		<div id="links" data-tab-content>
  			<h1>Links</h1>
 			
-			<div id="otherformat">
+			<div id="links2">
 				<!-- Links to external resources -->
 				<b>Stream my music:</b> <br>
 				<a href="https://linktr.ee/zeul"><font color="#1187FC">Linktree</font></a>

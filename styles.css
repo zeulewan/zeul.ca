@@ -113,7 +113,6 @@ text-align: center;
 
 p {
   text-align: justify;
-  margin: 0 auto;
   padding: 0px;
   margin: 20px;	
   margin-left: 0px;
@@ -143,15 +142,15 @@ label {
 }*/
 
 input[type="text"],
-input[type="email"],
 textarea {
   padding: 5px;
   margin-top: 10px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 6px;
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.9);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  color: #E7F5FE;
+  background: #08253A;
 
-  
   width: 100%;
 }
 
@@ -170,7 +169,7 @@ input[type="submit"] {
   
   color: #fff;
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
-   background-origin: border-box;
+  background-origin: border-box;
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   user-select: none;
   -webkit-user-select: none;
@@ -304,4 +303,15 @@ img{
 .projects:active {
   background: linear-gradient(180deg,  #194360 0%, #32546D 100%);
   transform: translateY(0);
+}
+
+#links2 {
+  border: 2px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #32546D 0%, #194360 100%);
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;			  
+  color:#E7F5FE;
+  text-align: center;
 }
