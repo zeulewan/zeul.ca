@@ -6,228 +6,232 @@ switch ($month)
 								{
 									case 1:
 										if ($day==1){
-											echo "<b>January ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>January ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>January ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>January ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>January ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>January ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>January ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtJanuary ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 2:
 										if ($day==1){
-											echo "<b>February ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>February ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>February ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>February ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>February ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>February ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>February ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtFebruary ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 3:
 										if ($day==1){
-											echo "<b>March ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>March ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>March ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>March ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>March ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>March ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>March ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtMarch ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 4:
 										if ($day==1){
-											echo "<b>April ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>April ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>April ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>April ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>April ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>April ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}rd $year&lt;/b&gt &lt;br&gt";
 										}else{
-											echo "<b>April ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtApril ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 5:
 										if ($day==1){
-											echo "<b>May ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>May ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>May ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-												echo "<b>May ${day}st $year</b> &lt;br&gt";
+												echo "&lt;b&gtMay ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>May ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>May ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>May ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtMay ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 6:
 										if ($day==1){
-											echo "<b>June ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>June ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>June ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>June ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>June ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>June ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>June ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtJune ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 7:
 										if ($day==1){
-											echo "<b>July ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>July ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>July ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>July ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>July ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>July ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>July ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtJuly ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;	
 									case 8:
 										if ($day==1){
-											echo "<b>August ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>August ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>August ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>August ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>August ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>August ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>August ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtAugust ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;									
 									case 9:
 										if ($day==1){
-											echo "<b>September ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>September ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>September ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>September ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-												echo "<b>September ${day}nd $year</b> &lt;br&gt";
+												echo "&lt;b&gtSeptember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>September ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>September ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtSeptember ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 10:
 										if ($day==1){
-											echo "<b>October ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>October ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>October ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>October ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>October ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>October ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>October ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtOctober ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 									case 11:
 										if ($day==1){
-											echo "<b>November ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>November ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>November ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>November ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>November ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>November ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>November ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtNovember ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;
 										case 12:
 										if ($day==1){
-											echo "<b>December ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==2){
-											echo "<b>December ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==3){
-											echo "<b>December ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==21){
-											echo "<b>December ${day}st $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}st $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==22){
-											echo "<b>December ${day}nd $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}nd $year&lt;/b&gt &lt;br&gt";
 										} else if ($day==23){
-											echo "<b>December ${day}rd $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}rd $year&lt;/b&gt &lt;br&gt";
 										} else{
-											echo "<b>December ${day}th $year</b> &lt;br&gt";
+											echo "&lt;b&gtDecember ${day}th $year&lt;/b&gt &lt;br&gt";
 										}
 										break;		
 								}
 
 </p>
 
+<p>
 was literally replaced by this one line because I didn't know that there was a built in function for it: <br>
 echo date_format(date_create("$year-$month-$day"), "F jS Y"); 
 <br><br>
-Since I didn't know what I was doing when I back then, rather than use mySQL, I created my own data base with tons of folders within folders. For example September 3rd 2023's blog post is saved in the folder blog/data/2023/8/3/ .
+Since I didn't know what I was doing when I back then, rather than use mySQL, I created my own data base with tons of folders within folders. For example September 3rd 2023's blog post is saved in the folder blog/data/2023/8/3/ . 
+I'll put a gif of how I make a blog post on here later.
 The files are displayed using nested for loops which iterate though years then months then days to display the posts in reverse chronological order on my blog page. <br><br>
 
 This blog used to look like this:
 1.png
 
 
-I somehow got comments working using only php. No javascript involved at all. Since javascript isn't being used it does mean that there are some draw backs in functionality. I can't figure out a way to make javascript work inside html which is inside php which is inside html, 
+I somehow got comments working using only php. No javascript involved at all. Since javascript isn't being used it does mean that there are some draw backs in functionality. 
+I can't figure out a way to make javascript work inside html which is inside php which is inside html, 
 so it may always be the case that the page jumps back to the top when you submit a comment.<br><br>
 My dad used to unplug the raspberry pi which I'm running this website on because the fan was too loud and it would prevent him from sleeping, so I removed the fan.
- Anyways I'm using PPPOE to get it a public IP, and it's on a VLAN which I made a fire wall rule to prevent traffic from the vlan from establishing a 
- connection with my main network but not the other way around because for some reason which I have yet to figure out, "hairpinning" is not working
- so I cant connect to the servers public IP from my local network. Something to do with it getting confused by the ip address it's receiving because
- bell is making both of them. not sure didn't really look into it.
- <br><br>
- oh yeah, this is using apache by the way. I did try nginx and it does seem better. 
+Anyways I'm using PPPOE to get it a public IP, and it's on a VLAN which I made a fire wall rule to prevent traffic from the vlan from establishing a 
+connection with my main network but not the other way around.
+<br><br>
+oh yeah, this is using apache by the way. I did try nginx and it does seem better. 
+<br>
+My next project for this site is gonna be to get two raspberry pis involved, so I can simulate a development environment and a production environment making it so one pi automatically pushes to github and one pi automatically pulls from it. I also wanna get an ansible script going, that's kinda a pain in the ass though.
+</p>
