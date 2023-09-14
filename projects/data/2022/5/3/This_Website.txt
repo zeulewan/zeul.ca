@@ -228,10 +228,11 @@ I somehow got comments working using only php. No javascript involved at all. Si
 I can't figure out a way to make javascript work inside html which is inside php which is inside html, 
 so it may always be the case that the page jumps back to the top when you submit a comment.<br><br>
 My dad used to unplug the raspberry pi which I'm running this website on because the fan was too loud and it would prevent him from sleeping, so I removed the fan.
-Anyways I'm using PPPOE to get it a public IP, and it's on a VLAN which I made a fire wall rule to prevent traffic from the vlan from establishing a 
-connection with my main network but not the other way around.
+Anyways I'm using PPPOE to get it a public IP, and it's on a VLAN which I made a fire wall rule for. I used to use my networks main IP address for my website and do port forwarding, but then I found out about PPPOE which is much better.
 <br><br>
-oh yeah, this is using apache by the way. I did try nginx and it does seem better. 
+oh yeah, this is using apache by the way. I did try nginx and it does seem better. I also have the domain zeul.ca which routes here too.
 <br>
-My next project for this site is gonna be to get two raspberry pis involved, so I can simulate a development environment and a production environment making it so one pi automatically pushes to github and one pi automatically pulls from it. I also wanna get an ansible script going, that's kinda a pain in the ass though.
+My next project for this site is gonna be to get two raspberry pis involved, so I can simulate a development environment and a production environment making it so one pi automatically pushes to github and one pi automatically pulls from it. 
+I also wanna get an ansible script going, that's kinda a pain in the ass though. I should also start using global functions 🥶. I want to do some load balancing at some point I'll have multiple pis set up at friends houses and stuff then 
+figure out how to route the traffic to the best pi, this may just end up sending all the traffic to the pi with the fastest internet to I'll have to simulate a bot attack or something. idk! that's a while out.
 </p>
