@@ -1,0 +1,7 @@
+In 2020, I recorded and produced two songs with the help of a few friends.
+ I incorperated tons of music production techniques, such as side chained and parallel compression,
+midi controllers, putting mics out of phase, mastering, and so much other stuff. Below is
+the result. 
+Click the title to link to the actual spotify app if you want to listen to the whole thing. <br><br>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2mBITzyUv7mWhqnHZIz7xt?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
