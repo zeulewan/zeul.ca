@@ -7,6 +7,9 @@ As the graph shows, the rocket's apogee was 181 meters
 5.png
 My next step is to get GPS, and radio working. My next step after that is making a custom PCB. Then my next project after that will be something AI related or maybe continuing my API work. I thought the 3B1B python stuff would work but it seems like the project is deprecated. <br>
 6.png
-Got the GPS working. I had buy a teensy because the nanos dont support multiple 
-hardware serial connection, and don't do software serial. Will have to choose
+Got the GPS working. I had buy a teensy because the nanos don't support multiple 
+hardware serial connections, and don't do software serial. Will have to choose
 a IMU/barometer because I don't wanna do that Can bus crap.
+7.gif
+Just got the radio working super exited about this!
+So all I gotta do now is write the code, and connect the antenna to a raspbery pi, and I'm done!
