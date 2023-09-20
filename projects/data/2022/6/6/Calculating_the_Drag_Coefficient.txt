@@ -42,8 +42,10 @@ This is Eric on the launch pad doing final computer checks
 Unfortunately the rocket crashed and the data SD card cracked
 2.gif
 I had to partially rebuild the flight computer since the sd card reader and the regulator broke. the housing for the computer broke too so I had to 3d print it again.
-I flew it again and this time the parachute deployed and I recovered the data.
-3.gif
+I flew it again and this time the parachute deployed and I recovered the data. Here's the vlog for this project check it out:
+<style>.embed-container {border-radius: 10px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/UAEYm93dPRE?si=LReCSiz_czj_lPBK' frameborder='0' allowfullscreen></iframe></div>
+<br>
 The apogee was 73 meters. The drag coefficient of the rocket is 0.13. It was 320 grams with the computer and motor.
 graph1.png graph2.png
 rocket.jpg
+
