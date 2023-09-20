@@ -53,8 +53,9 @@
 				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>!
 				<br><br>
 
-				<a href="blog/data/2022/8/27/1.jpeg"><img src='media/portrait.jpg'></a>
-
+				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
+					<img src='media/portrait.jpg'>
+				Here's a picture of me and Trudy.
 			</div>	
 		</div>
 
