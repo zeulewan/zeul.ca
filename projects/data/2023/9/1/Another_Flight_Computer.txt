@@ -12,4 +12,6 @@ hardware serial connections, and don't do software serial. Will have to choose
 a IMU/barometer because I don't wanna do that Can bus crap.
 7.gif
 Just got the radio working super exited about this!
-So all I gotta do now is write the code, and connect the antenna to a raspbery pi, and I'm done!
+So all I gotta do now is write the code, and connect the antenna to a raspberry pi, and I'm done!
+8.jpg
+The computer is fully working on a battery! I got a nice barrel jack and a switch, to make life easier.
