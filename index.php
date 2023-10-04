@@ -55,6 +55,7 @@
 
 				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
 					<img src='media/portrait.jpg'>
+					<br>
 				Here's a picture of me and Trudy.
 			</div>	
 		</div>
@@ -286,6 +287,10 @@
 
 				<b>My GitHub:</b> <br>
 				<a href="https://github.com/zeulewan"><font color="#1187FC">GitHub</font></a>
+
+				<a href="https://arrayinamatrix.xyz"><img src="https://arrayinamatrix.xyz/res/site/banners/custom/white_176x62.png"></a>
+
+
 			</div>
     	</div>
 		<br>
