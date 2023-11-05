@@ -1,5 +1,5 @@
- Server Time: 01:00:59 
+ Server Time: 16:42:26 
 
- Client IP: 72.234.144.16 
+ Client IP: 172.58.139.197 
 
- Data sent: {"1":{"temp":53,"hum":129,"pres":265},"2":{"aa":322,"bb":487,"cc":509}}
+ Data sent: {"1":{"temp":38,"hum":194,"pres":254},"2":{"aa":361,"bb":416,"cc":597}}
