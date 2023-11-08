@@ -64,7 +64,7 @@
     	<div id="home" data-tab-content class=<?php if($c == 1){ echo "active"; } ?>>
 		
 			<font face='Arial' color="#E7F5FE">
-			<h1>My wow Blog!</h1>
+			<h1>My Blog!</h1>
 				
 			<!--<h4>This is my blog</h4>-->
 				
