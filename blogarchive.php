@@ -19,7 +19,7 @@
 <body>
 
 <div class="banner">
-<h1><br>Blog Archive Menu<br><br></h1>
+<h1><br>blog archive<br><br></h1>
 </div>
 <div class="tab-content">
 

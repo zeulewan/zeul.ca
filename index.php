@@ -32,10 +32,10 @@
 	
 		<!-- Navigation Menu -->
 		<ul class="header"> 
-			<li data-tab-target="#something" class="<?php if($c == 0){ echo "active"; } ?> tab"><font color="FFFFFF">Home</font></li>
-			<li data-tab-target="#projects" class="tab"><font color ="FFFFFF">Projects</font></li>
-			<li data-tab-target="#home" class="<?php if($c == 1){ echo "active"; } ?> tab"><font color ="FFFFFF">Blog</font></li>
-			<li data-tab-target="#links" class="tab"><font color="FFFFFF">Links</font></li>	
+			<li data-tab-target="#something" class="<?php if($c == 0){ echo "active"; } ?> tab"><font color="FFFFFF">home</font></li>
+			<li data-tab-target="#projects" class="tab"><font color ="FFFFFF">projects</font></li>
+			<li data-tab-target="#home" class="<?php if($c == 1){ echo "active"; } ?> tab"><font color ="FFFFFF">blog</font></li>
+			<li data-tab-target="#links" class="tab"><font color="FFFFFF">links</font></li>	
   		</ul>
 	</div>
 
@@ -44,7 +44,7 @@
 
 	 	<!-- About Me Section -->
 	 	<div id="something" data-tab-content class=<?php if($c == 0){ echo "active"; } ?> >	
-      		<h1>About me</h1>
+      		<h1></h1>
 
 			<div id="otherformat">
      			Hi, my name is Zeul, and this is my website.
@@ -64,13 +64,13 @@
     	<div id="home" data-tab-content class=<?php if($c == 1){ echo "active"; } ?>>
 		
 			<font face='Arial' color="#E7F5FE">
-			<h1>My Blog!</h1>
+			<h1></h1>
 				
 			<!--<h4>This is my blog</h4>-->
 				
 			<!-- Button to view blog archives -->
 			<div class="center">
-				<button class="button-10" role="button" onclick="location.href='../../../blogarchive.php'" id="home"> blog archive</button>
+				<button class="button-10" role="button" onclick="location.href='../../../blogarchive.php'" id="home">archive</button>
 			</div>
 				
 			<?php 
@@ -221,7 +221,7 @@
 
 		<!-- Projects Section -->
 		<div id="projects" data-tab-content >	
-      		<h1>Projects</h1>
+      		<h1></h1>
 			<?php 
 				// Loop through projects dynamically
 				for ($year=date("Y"); $year>=2019; $year--) {
@@ -260,32 +260,32 @@
 
    		<!-- Links Section -->
    		<div id="links" data-tab-content>
- 			<h1>Links</h1>
+ 			<h1></h1>
 			
 			<div id="links2">
 				<!-- Links to external resources -->
-				<b>Stream my music:</b> <br>
+				<b>my music:</b> <br>
 				<a href="https://linktr.ee/zeul"><font color="#1187FC">Linktree</font></a>
 				<br>	
 				<br>		
 			
-				<b>Download my Music</b>
+				<b>download my music</b>
 				<br>
 				<a href="media/Zeul.zip" download>
    				<button class='button-10' type="button">320kbps MP3s</button></a> <br>
 				<br>
 
-				<b>Youtube Channel:</b> <br>
+				<b>Youtube</b> <br>
 				<a href="https://www.youtube.com/zeulewan"><font color="#1187FC">youtube.com/zeulewan</font></a>
 				<br>	
 				<br>		
 
-				<b>My LinkedIn:</b> <br>
+				<b>LinkedIn:</b> <br>
 				<a href="https://www.linkedin.com/in/zeul-mordasiewicz-8133561b9/"><font color="#1187FC">LinkedIn</font></a>
 				<br>	
 				<br>
 
-				<b>My GitHub:</b> <br>
+				<b>GitHub:</b> <br>
 				<a href="https://github.com/zeulewan"><font color="#1187FC">GitHub</font></a>
 				<br>
 				<br>
