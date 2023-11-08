@@ -287,6 +287,8 @@
 
 				<b>My GitHub:</b> <br>
 				<a href="https://github.com/zeulewan"><font color="#1187FC">GitHub</font></a>
+				<br>
+				<br>
 
 				<a href="https://arrayinamatrix.xyz"><img src="https://arrayinamatrix.xyz/res/site/banners/custom/white_176x62.png"></a>
 
