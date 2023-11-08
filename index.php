@@ -106,8 +106,8 @@
 									}
 								}
 								
-								if ($fileCount >= 10) {
-									echo "</p>Max number of comments reached. <p>";
+								if ($fileCount >= 0) {
+									echo "</p><p>";
 								} else {
 									// Display the comment form
 									echo "
