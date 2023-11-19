@@ -1,0 +1,6 @@
+Mizi and I are working on TVC together. I'm working on controlling it and he's working on building it.
+This is the computer we're gonna use,
+fc.jpg
+and this is a demo of the TVC
+tvc1.gif
+tvc2.gif
