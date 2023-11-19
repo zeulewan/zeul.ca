@@ -70,7 +70,8 @@
 				
 			<!-- Button to view blog archives -->
 			<div class="center">
-				<button class="button-10" role="button" onclick="location.href='../../../blogarchive.php'" id="home">archive</button>
+				<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
+				
 			</div>
 				
 			<?php 
