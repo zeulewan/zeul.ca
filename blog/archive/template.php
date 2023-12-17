@@ -45,7 +45,7 @@
   		<h1><?php echo "$monthtxt $year"; ?></h1>
 		  <br>
 	</div>
-
+	<br>
 	<div class="center">
     <button class="button-10" onclick="location.href='../../blogarchive.php'"     id="home"  >   Archive Menu    </button>
 	</div>

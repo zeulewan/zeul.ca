@@ -13,6 +13,7 @@ body {
   text-align: center;
   background-image: url("media/red.gif");
   background-repeat: repeat;
+  cursor: url('media/skull.png'), auto;
 }
 
 

@@ -61,7 +61,7 @@
           <h1><?php echo $title_text?></h1>
 		  <br>
 	</div>
-	
+	<br>
    
 	<button class='button-10' role="button" onclick="location.href='../../'">go back home</button>
 
