@@ -19,7 +19,7 @@
 	<!-- Banner with Navigation Menu -->
 	<div class="banner">
 		<br>
-		<h1>ZEEUUULL</h1>
+		<h1>ZEUL</h1>
 
 		<?php 
 			// Checks if the request method is POST and sets a variable to indicate the default tab
