@@ -59,7 +59,7 @@
 								$pagecontents = file_get_contents("../data/$year/$month/$day/$day.txt");
 								if ($pagecontents!=null)
 								{
-									echo ("<div id='blog'> <p>");
+									echo ("<div id='box'> <p>");
 
 									$date = date_create("$year-$month-$day");
 									$test= date_format($date,"F jS Y");

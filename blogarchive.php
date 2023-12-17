@@ -23,17 +23,18 @@
 </div>
 <div class="tab-content">
 
-<div class="center">
-<button class="button-10" role="button" onclick="location.href='index.php'"> go back home </button>
 
-</div>
+<button class="button-10" role="button" onclick="location.href='index.php'"> go back home </button>
+<br>
+
+
                         
                     <?php 	
                         for ($year=2022; $year<=date("Y"); $year++) 
                         {	
                             if (is_dir("blog/data/$year"))
                             {
-                                echo ("<br><div id='blog'> <br>");
+                                echo ("<br><div id='box'> <br>");
                                 echo "<b>$year</b> <br><br>";
                                 for ($month=1; $month<=12; $month++) 
                                 {

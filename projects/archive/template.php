@@ -63,10 +63,8 @@
 	</div>
 	
    
-	<div class="center">
-
 	<button class='button-10' role="button" onclick="location.href='../../'">go back home</button>
-	</div>
+
 	<br><br>
     <div class="tab-content">
     		
@@ -75,7 +73,7 @@
 
 <?php
 
-									echo ("<div id='blog'> <p>");
+									echo ("<div id='box'> <p>");
 
 									$date = date_create("$year-$month-$day");
 									$test= date_format($date,"F jS Y");

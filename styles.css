@@ -1,4 +1,3 @@
-
 [data-tab-content] {
   display: none;
 }
@@ -153,7 +152,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transform: translateY(-1px);
 }
@@ -175,8 +174,7 @@ input[type="submit"]:active {
   transition: all 100ms;
   color: #fff;
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
-   background-origin: border-box;
-  box-shadow: none;
+  background-origin: border-box;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -230,7 +228,7 @@ input[type="submit"]:active {
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
   padding: 20px;
   padding-right: 20px;
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   padding-top: 1px;
   padding-bottom: 1px;
   max-width: 800px;
