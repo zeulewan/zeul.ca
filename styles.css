@@ -65,10 +65,6 @@
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 }
 
-.tab-content {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 /* Style the body */
 body {
@@ -81,10 +77,8 @@ body {
 /* Header/Logo Title */
 .banner {
   overflow: hidden;
-  
+  color:#E7F5FE;
   text-align: center;
-  
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/banner.jpg");*/
   background: linear-gradient(rgba(0, 0, 0, 0.5), #08253A), url("media/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -94,20 +88,6 @@ body {
 
 /* Page Content */
 .content {padding:0px;}
-
-b{
-  margin: 0px;
-  padding: 0px;
-}
-
-h1 {text-align: center;
-  color:#E7F5FE;
-}
-
-h4{
-text-align: center;
-  color:#E7F5FE;
-}
 
 p {
   text-align: justify;
@@ -178,24 +158,15 @@ input[type="submit"]:active {
 }
 
 
-
-
-
-div {text-align: center;}
-
 #blog {
   border: 2px ;
   border-radius: 10px;
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
-  
   padding: 20px;
   padding-right: 20px;
-
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
-
   padding-top: 1px;
   padding-bottom: 1px;
-  
   max-width: 800px;
   margin: auto;			  
   color:#E7F5FE;
@@ -210,8 +181,6 @@ div {text-align: center;}
   margin: auto;			  
   color:#E7F5FE;
   text-align: justify;
-  
-
 }
 
 img{
@@ -226,11 +195,7 @@ img{
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .button-10 {
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
@@ -262,6 +227,11 @@ img{
   transform: translateY(0);
 }
 
+div {
+  
+  text-align: center;
+}
+
 .projects {
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   margin: 10px;
@@ -271,6 +241,9 @@ img{
   border-radius: 10px;
   border: none;
   transition: all 100ms;
+  text-align: center;
+
+
   
   color: #fff;
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);

@@ -39,18 +39,16 @@
   		</ul>
 	</div>
 
-	<!-- Content Sections -->
-  	<div class="tab-content">
+
 
 	 	<!-- About Me Section -->
 	 	<div id="something" data-tab-content class=<?php if($c == 0){ echo "active"; } ?> >	
       		<h1></h1>
 
 			<div id="frontpage">
-     			Hi, my name is Zeul, and this is my website.
-				I am an aerospace engineering student at TMU. This
-				website is a place to put random things that I do. This website is on 
-				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>!
+     			Hi, my name is Zeul, and this is my website. This
+				website is a place to put random things that I do. 
+				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>
 				<br><br>
 
 				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
@@ -66,8 +64,7 @@
 			<font face='Arial' color="#E7F5FE">
 			<h1></h1>
 				
-			<!--<h4>This is my blog</h4>-->
-				
+
 			<!-- Button to view blog archives -->
 			<div class="center">
 				<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
@@ -107,7 +104,7 @@
 									}
 								}
 								
-								if ($fileCount >= 0) {
+								if ($fileCount >= 10) {
 									echo "</p><p>";
 								} else {
 									// Display the comment form
@@ -293,6 +290,6 @@
 			
     	</div>
 		<br>
-  	</div>
+
 </body>
 </html>

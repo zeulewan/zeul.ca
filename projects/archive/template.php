@@ -65,7 +65,7 @@
    
 	<div class="center">
 
-	<button class='button-10' role="button" onclick="location.href='../../'">Go Back Home</button>
+	<button class='button-10' role="button" onclick="location.href='../../'">go back home</button>
 	</div>
 	<br><br>
     <div class="tab-content">
