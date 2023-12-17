@@ -12,7 +12,7 @@
 
 	<!-- Stylesheet -->
 	<link href="styles.css" rel="stylesheet">
-	<title>Zeul's Website!</title>
+	<title>zeul.ca</title>
 </head>
 <body>
 	
@@ -238,9 +238,6 @@
 
 										$date = date_format(date_create("$year-$month-$day"), "F jS Y");
 										$title_text = str_replace('_', ' ', $bname);
-										//$f = fopen("projects/data/$year/$month/$day/$bname.txt", 'r');
-										//$line1 = fgets($f);
-										//fclose($f);
 
 										// Check if the thumbnail exists for the project, display accordingly
 										if (file_exists("projects/data/$year/$month/$day/thumbnail.jpg")) {
@@ -249,7 +246,6 @@
 										} else {
 											echo("<button class='projects' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
 										}
-										//echo("<br>");
 									}
 								}
 							}	
@@ -261,9 +257,9 @@
 
    		<!-- Links Section -->
    		<div id="links" data-tab-content>
- 			<h1></h1>
+ 		
 			
-			<div id="links2">
+			
 				<!-- Links to external resources -->
 				<b>my music:</b> <br>
 				<a href="https://linktr.ee/zeul"><font color="#1187FC">Linktree</font></a>
@@ -294,7 +290,7 @@
 				<a href="https://arrayinamatrix.xyz"><img src="https://arrayinamatrix.xyz/res/site/banners/custom/white_176x62.png"></a>
 
 
-			</div>
+			
     	</div>
 		<br>
   	</div>

@@ -1,10 +1,13 @@
+
 [data-tab-content] {
   display: none;
 }
 
+
 .thumbnail {
   max-width: 200px;
 }
+
 
 .header {
   display: flex;
@@ -19,11 +22,12 @@
   }
 }
 
+/*
 .button {
   background-color: #194360;
   border-radius: 10px;
   color:#E7F5FE;
-}
+}*/
 
 .active[data-tab-content] {
   display: block;
@@ -128,18 +132,6 @@ p {
   margin-right: 10px;
 
 }
-/* 
-.commentsubmit {
-  text-align: right;
-}
-*/
-
-
-/* Style form labels and input fields 
-label {
-  display: block;
-  margin-bottom: 5px;
-}*/
 
 input[type="text"],
 textarea {
@@ -224,6 +216,7 @@ div {text-align: center;}
   margin: auto;			  
   color:#E7F5FE;
   text-align: justify;
+  
 
 }
 
@@ -305,7 +298,8 @@ img{
   transform: translateY(0);
 }
 
-#links2 {
+
+#links {
   border: 2px;
   border-radius: 10px;
   background: linear-gradient(180deg, #32546D 0%, #194360 100%);
