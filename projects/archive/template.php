@@ -69,7 +69,6 @@
     <div class="tab-content">
     		
 		
-            <font face="Arial" color="#E7F5FE">
 
 <?php
 
@@ -100,7 +99,6 @@
 
 
 </div>
-			</font>
 
 </body>
 </html>

@@ -19,7 +19,7 @@
 	<!-- Banner with Navigation Menu -->
 	<div class="banner">
 		<br>
-		<h1>zeul.ca</h1>
+		<h1>ZEEUUULL</h1>
 
 		<?php 
 			// Checks if the request method is POST and sets a variable to indicate the default tab
@@ -62,7 +62,6 @@
 		<!-- Blog Section -->
     	<div id="home" data-tab-content class=<?php if($c == 1){ echo "active"; } ?>>
 		
-			<font face='Arial' color="#E7F5FE">
 			<h1></h1>
 				
 			<!-- Button to view blog archives -->
