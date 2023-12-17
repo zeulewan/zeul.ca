@@ -66,7 +66,7 @@
 			<h1></h1>
 				
 			<!-- Button to view blog archives -->
-			<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
+			<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">Archive</button>
 			<br>
 
 			<?php 
