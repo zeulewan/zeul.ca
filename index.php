@@ -32,10 +32,10 @@
 	
 		<!-- Navigation Menu -->
 		<ul class="header"> 
-			<li data-tab-target="#something" class="<?php if($c == 0){ echo "active"; } ?> tab"><font color="FFFFFF">home</font></li>
-			<li data-tab-target="#projects" class="tab"><font color ="FFFFFF">projects</font></li>
-			<li data-tab-target="#home" class="<?php if($c == 1){ echo "active"; } ?> tab"><font color ="FFFFFF">blog</font></li>
-			<li data-tab-target="#links" class="tab"><font color="FFFFFF">links</font></li>	
+			<li data-tab-target="#something" class="<?php if($c == 0){ echo "active"; } ?> tab"><font color="FFFFFF">Home</font></li>
+			<li data-tab-target="#projects" class="tab"><font color ="FFFFFF">Projects</font></li>
+			<li data-tab-target="#home" class="<?php if($c == 1){ echo "active"; } ?> tab"><font color ="FFFFFF">Blog</font></li>
+			<li data-tab-target="#links" class="tab"><font color="FFFFFF">Links</font></li>	
   		</ul>
 	</div>
 
