@@ -22,12 +22,6 @@
   }
 }
 
-/*
-.button {
-  background-color: #194360;
-  border-radius: 10px;
-  color:#E7F5FE;
-}*/
 
 .active[data-tab-content] {
   display: block;
