@@ -51,9 +51,11 @@
 				<br><br>
 
 				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
-					<img src='media/portrait.jpg'>
-					<br>
+				<img src='media/portrait.jpg'>
+				<br>
 				Here's a picture of me and Trudy.
+				<br><br>
+
 			</div>	
 		</div>
 
@@ -63,12 +65,10 @@
 			<font face='Arial' color="#E7F5FE">
 			<h1></h1>
 				
-
 			<!-- Button to view blog archives -->
 			<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
 			<br>
 
-				
 			<?php 
 				// Loop through blog posts dynamically
 				for ($year=date("Y"); $year>=2022; $year--) {
