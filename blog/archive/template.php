@@ -5,10 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<script 
-		src="../../../script.js" defer>
+		src="../../script.js" defer>
 
 	</script>
-	<link href="../../../styles.css" rel="stylesheet">
+	<link href="../../styles.css" rel="stylesheet">
  	<title>Zeul's Website!</title>
 
 </head>

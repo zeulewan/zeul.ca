@@ -46,7 +46,7 @@
 	 	<div id="something" data-tab-content class=<?php if($c == 0){ echo "active"; } ?> >	
       		<h1></h1>
 
-			<div id="otherformat">
+			<div id="frontpage">
      			Hi, my name is Zeul, and this is my website.
 				I am an aerospace engineering student at TMU. This
 				website is a place to put random things that I do. This website is on 
