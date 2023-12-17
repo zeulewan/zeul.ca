@@ -33,19 +33,18 @@
 		<!-- Navigation Menu -->
 		<ul class="header"> 
 			<li data-tab-target="#something" class="<?php if($c == 0){ echo "active"; } ?> tab"><font color="FFFFFF">Home</font></li>
-			<li data-tab-target="#projects" class="tab"><font color ="FFFFFF">Projects</font></li>
+			<li data-tab-target="#project" class="tab"><font color ="FFFFFF">Projects</font></li>
 			<li data-tab-target="#home" class="<?php if($c == 1){ echo "active"; } ?> tab"><font color ="FFFFFF">Blog</font></li>
 			<li data-tab-target="#links" class="tab"><font color="FFFFFF">Links</font></li>	
   		</ul>
 	</div>
 
-
-
 	 	<!-- About Me Section -->
 	 	<div id="something" data-tab-content class=<?php if($c == 0){ echo "active"; } ?> >	
-      		<h1></h1>
 
-			<div id="frontpage">
+		<br>
+			<div id="box">
+			<br>
      			Hi, my name is Zeul, and this is my website. This
 				website is a place to put random things that I do. 
 				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>
@@ -66,10 +65,9 @@
 				
 
 			<!-- Button to view blog archives -->
-			<div class="center">
-				<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
-				
-			</div>
+			<button class="button-10" role="button" onclick="location.href='blogarchive.php'" id="home">archive</button>
+			<br>
+
 				
 			<?php 
 				// Loop through blog posts dynamically
@@ -78,7 +76,7 @@
 						for ($day=31; $day>= 1; $day--) {		
 							$pagecontents = file_get_contents("blog/data/$year/$month/$day/$day.txt");
 							if ($pagecontents!=null) {
-								echo ("<br><div id='blog'> <p>"); 
+								echo ("<br><div id='box'> <p>"); 
 								
 								//displays the date
 								echo "<b>" . date_format(date_create("$year-$month-$day"), "F jS Y") . "</b>";
@@ -218,8 +216,9 @@
 		</div>
 
 		<!-- Projects Section -->
-		<div id="projects" data-tab-content >	
-      		<h1></h1>
+		<div id="project" data-tab-content >	
+		
+			
 			<?php 
 				// Loop through projects dynamically
 				for ($year=date("Y"); $year>=2019; $year--) {
@@ -238,10 +237,10 @@
 
 										// Check if the thumbnail exists for the project, display accordingly
 										if (file_exists("projects/data/$year/$month/$day/thumbnail.jpg")) {
-											echo("<button class='projects' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">   
+											echo("<button class='box' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">   
 											<img src='projects/data/$year/$month/$day/thumbnail.jpg' class='thumbnail'><br>$title_text<br>$date</button> ");
 										} else {
-											echo("<button class='projects' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
+											echo("<button class='box' onclick= \"location.href='projects/archive/template.php?day=$day&month=$month&year=$year&title=$bname'\">$title_text<br>$date</button> ");
 										}
 									}
 								}
@@ -250,20 +249,21 @@
 					}				
 				}
 			?>
+			
 		</div>
 
    		<!-- Links Section -->
    		<div id="links" data-tab-content>
- 		
-			
-			
+		   <br>
+		   <div id="box">
+		   		<br>
 				<!-- Links to external resources -->
-				<b>my music:</b> <br>
+				<b>My music:</b> <br>
 				<a href="https://linktr.ee/zeul"><font color="#1187FC">Linktree</font></a>
 				<br>	
 				<br>		
 			
-				<b>download my music</b>
+				<b>Download my music</b>
 				<br>
 				<a href="media/Zeul.zip" download>
    				<button class='button-10' type="button">320kbps MP3s</button></a> <br>
@@ -285,9 +285,8 @@
 				<br>
 
 				<a href="https://arrayinamatrix.xyz"><img src="https://arrayinamatrix.xyz/res/site/banners/custom/white_176x62.png"></a>
-
-
-			
+				<br>
+			</div>
     	</div>
 		<br>
 
