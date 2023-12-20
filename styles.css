@@ -1,8 +1,10 @@
+
 :root {
-  --pressed: linear-gradient(180deg, #601919 0%, #6d3232 100%);
-  --gradient: linear-gradient(180deg,  #6d3232 0%, #601919 100%);
-  --back: #3a0808; /* Define a global variable */
+  --pressed: linear-gradient(180deg, #080a22 0%, #13152a 100%);
+  --gradient: linear-gradient(180deg,  #13152a 0%, #080a22 100%);
+  --back: #000000; /* Define a global variable */
   --global-font: "Courier New", Courier, monospace;
+  
 }
 
 body {
@@ -13,9 +15,13 @@ body {
   text-align: center;
   background-image: url("media/stars.gif");
   background-repeat: repeat;
-  cursor: url('media/skull.png'), auto;
+  /*cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1009.cur), auto;*/
 }
 
+
+/* Start https://www.cursors-4u.com */
+ * {cursor: url(https://cur.cursors-4u.net/nature/nat-11/nat1009.cur), auto !important;}
+  /* End https://www.cursors-4u.com */
 
 [data-tab-content] {
   display: none;
