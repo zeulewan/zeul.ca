@@ -53,8 +53,6 @@
 				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
 				<img src='media/portrait.jpg'>
 				<br>
-				Here's a picture of me and Trudy.
-				<br><br>
 
 			</div>	
 		</div>
