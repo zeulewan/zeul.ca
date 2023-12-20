@@ -11,7 +11,7 @@ body {
   padding: 0;
   color: var(--back);
   text-align: center;
-  background-image: url("media/red.gif");
+  background-image: url("media/stars.gif");
   background-repeat: repeat;
   cursor: url('media/skull.png'), auto;
 }
