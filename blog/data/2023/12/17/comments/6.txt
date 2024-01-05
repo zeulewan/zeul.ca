@@ -1,0 +1,3 @@
+Zeul
+It’s just the cost of the electricity, I run this on a raspberry pi
+2023-12-23 00:03:48
