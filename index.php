@@ -159,7 +159,7 @@
 
 								// Save new comments when submitted 
 								$mess = $_POST['message']; // These
-								$pattern = "/http|www/i";  // lines get rid of scammers
+								$pattern = "/http|www|\@|\$/i";  // lines get rid of scammers, blocks shit
 
 								if (preg_match($pattern, $mess)==0) {
 									$d = htmlspecialchars($_POST['day']);
