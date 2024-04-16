@@ -15,3 +15,6 @@ Just got the radio working super exited about this!
 So all I gotta do now is write the code, and connect the antenna to a raspberry pi, and I'm done!
 8.jpg
 The computer is fully working on a battery! I got a nice barrel jack and a switch, to make life easier.
+<br>
+With the help of my friend Nathan Liu, we turned this into a PCB! This is now the board that MARS my student team uses for their avionics:
+9.jpg
