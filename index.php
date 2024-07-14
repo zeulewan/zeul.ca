@@ -159,7 +159,8 @@
 
 								// Save new comments when submitted 
 								$mess = $_POST['message']; // These
-								$pattern = "/http|www|\@|\$/i";  // lines get rid of scammers, blocks shit
+								$$pattern = "/http|www|@|\\$|\\$1000|\\$12|\\$2000|\\$300|\\$3000|\\$4000|\\$500|\\$5000|000|3days|6days|All thanks to|Bitcoin|\\.com|Can i share it|Can I share\\?|capital|Check out the|Collaboration|Contact us|credited|Crypto|Cryptocurrency|Debit|Debts|Deposited|Dm|IT|Dm it to|earn|earning|every 5 days|Feature it on|first 5 people|Funding|I invested|I just deposited|I made over|I make|I never believed|I received|in a week|investing|Investment|I'm funding|LEGITIMATELY|Paid|Pay|Paying|Profit|Promote|Promote it|Promote it on|Scam|Send|Send it|Send it to|Send pic|Sending|trades|Trading|usd|weekly|\"Hard times\"|\"hard time\"|€|€100|€2000|🅿️aying|💸|💵/i";
+								  // lines get rid of scammers, blocks shit
 
 								if (preg_match($pattern, $mess)==0) {
 									$d = htmlspecialchars($_POST['day']);
