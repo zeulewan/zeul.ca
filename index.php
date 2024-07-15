@@ -47,7 +47,7 @@
 			<br>
      			Hi, my name is Zeul, and this is my website. This
 				website is a place to put random things that I do. 
-				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github</font></a>
+				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github.</font></a>
 				I host this on a raspberry pi in my basmenet.
 				<br><br>
 
