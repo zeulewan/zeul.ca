@@ -105,7 +105,7 @@
 								} else {
 									// Display the comment form
 									echo "
-									
+											
 											<form method=post>
 
 											<div class='commenttext'>
@@ -115,7 +115,7 @@
 											<div class='commentinput'>
 												<input type=text name='name' placeholder='Name (max 30 chars)' required><br>
 												<input type=text name='message' placeholder='Message (max 300 chars)' required><br>
-												<input type=text name='human' placeholder='What is 3+4?' required><br>
+												<input type=text name='human' placeholder='What is $month+$day?' required><br>
 
 											</div>
 									
@@ -159,6 +159,7 @@
 										// Close the file
 										fclose($file);
 
+
 								}
 
 								if ($fileCount < 10) {
@@ -172,7 +173,7 @@
 
 										$max_message_length = 300;
 										$max_name_length = 30;
-										$expected_answer = 7;
+										$expected_answer = $month+$day;
 
 
 										if (
@@ -208,6 +209,8 @@
 
 												// Close the file
 												fclose($file);
+
+												shell_exec("chmod 770 $file");
 
 											}	
 										}	
