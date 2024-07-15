@@ -1,0 +1,5 @@
+I have begun a new project! Following Ben Eater's 6502 project guide, I am building an 8 bit computer! Here is a photo of the current status:
+1.jpg
+The top section is the clock module. It's made from three 555 timers, one in each mode. and from left to right it has a hex inverting gate, a quad and gate, and a quad or gate.
+The 6052 chip's data bus is begin hard codded in this picture with a couple resistors to the "no op" code.
+The arduino on the bottom is being used as a logic analyzer to look at the data and address busses.
