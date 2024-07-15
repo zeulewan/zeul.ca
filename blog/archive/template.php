@@ -76,13 +76,26 @@
 									if (count($files) > 0) {
 										echo '<hr>';
 									}*/
+
 									
+
+										$commentspath = "../data/$year/$month/$day/comments/";
+
+										if (file_exists($commentspath) && count(glob("$commentspath/*")) > 0) {
+											echo "
+												<hr>
+												<div class='commenttext'>
+													<b>Comments:</b><br>
+												</div>
+											";
+										}	
+
 										for ($cmnt=1; $cmnt<=10; $cmnt++)
 										{
-											if (file_exists("../data/$year/$month/$day/comments/$cmnt.txt"))
+											if (file_exists("$commentspath/$cmnt.txt"))
 											{
 												
-											$file = fopen("../data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+											$file = fopen("$commentspath/$cmnt.txt", 'rb');
 
 											// Read and print the first line
 											echo "<p class='commenttext'>";
