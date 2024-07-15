@@ -100,7 +100,7 @@
 								}
 								
 								if ($fileCount >= 10) {
-									echo "</p><p>";
+									echo "</p> Max number of comments reached on this post<p>";
 								} else {
 									// Display the comment form
 									echo "
@@ -112,8 +112,10 @@
 											</div>
 
 											<div class='commentinput'>
-												<input type=text name='name' placeholder='Name (max 50 chars)' required><br>
-												<input type=text name='message' placeholder='Message (max 150 chars)' required><br>
+												<input type=text name='name' placeholder='Name (max 30 chars)' required><br>
+												<input type=text name='message' placeholder='Message (max 300 chars)' required><br>
+												<input type=text name='human' placeholder='What is 3+4?' required><br>
+
 											</div>
 									
 												<input type=hidden name=day value=${day}>
@@ -128,6 +130,7 @@
 										";	
 
 								}
+								
 
 								// Loop through and display comments
 								for ($cmnt=1; $cmnt<=10; $cmnt++) {
@@ -157,43 +160,59 @@
 
 								}
 
-								// Save new comments when submitted 
-								$mess = $_POST['message']; // These
-								$pattern = "/http|www|@|buy|promote|promotion|.com/i"; 
-								// lines get rid of scammers, blocks shit
+								if ($fileCount < 10) {
+									if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+										// Save new comments when submitted 
+										$mess = $_POST['message']; // These
+										$pattern = "/http|www|@|buy|promote|promotion|.com/i"; 
+										// lines get rid of scammers, blocks shit
+										$name = $_POST['name'];
+										$human = $_POST['human'];
 
-								if (preg_match($pattern, $mess)==0) {
+										$max_message_length = 300;
+										$max_name_length = 30;
+										$expected_answer = 7;
 
-									$d = htmlspecialchars($_POST['day']);
-									$m = htmlspecialchars($_POST['month']);
-									$y = htmlspecialchars($_POST['year']);
 
-									if ($d==$day && $m==$month && $y==$year) {
+										if (
+											preg_match($pattern, $mess) == 0 && // Check if $mess matches pattern
+											strlen($mess) <= $max_message_length && // Check if message length is within limit
+											strlen($name) <= $max_name_length && // Check if name length is within limit
+											intval($human) === $expected_answer // Check if the captcha answer is correct
+										) {
+											$d = htmlspecialchars($_POST['day']);
+											$m = htmlspecialchars($_POST['month']);
+											$y = htmlspecialchars($_POST['year']);
 
-										$texts = array(htmlspecialchars($_POST['name']), htmlspecialchars($_POST['message']), date("Y-m-d H:i:s"));
-										implode('<br>', $texts);
-										file_put_contents("blog/data/$year/$month/$day/comments/$cmnt.txt", implode(PHP_EOL, $texts));
-										$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+											if ($d==$day && $m==$month && $y==$year) {
+
+												$texts = array(htmlspecialchars($_POST['name']), htmlspecialchars($_POST['message']), date("Y-m-d H:i:s"));
+												implode('<br>', $texts);
+												file_put_contents("blog/data/$year/$month/$day/comments/$cmnt.txt", implode(PHP_EOL, $texts));
+												$file = fopen("blog/data/$year/$month/$day/comments/$cmnt.txt", 'rb');
+												
+												echo "<p class='commenttext '>";
 										
-										echo "<p class='commenttext '>";
-								
-										$line1 = fgets($file);
-										
-										echo "<b>";
-										echo $line1;
-										echo "</b>";
-										echo "<br>";
-									
-										// Read and print the second line
-										$line2 = fgets($file);
-										echo $line2;
-										echo "</p>";
+												$line1 = fgets($file);
+												
+												echo "<b>";
+												echo $line1;
+												echo "</b>";
+												echo "<br>";
+											
+												// Read and print the second line
+												$line2 = fgets($file);
+												echo $line2;
+												echo "</p>";
 
-										// Close the file
-										fclose($file);
+												// Close the file
+												fclose($file);
 
-									}	
-								}	
+											}	
+										}	
+									}
+								}
+
 								
 								echo ("</div> ");
 								$post_counter++;
