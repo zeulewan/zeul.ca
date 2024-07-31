@@ -310,6 +310,8 @@
 				<br>
 
 				<a href="https://arrayinamatrix.xyz"><img src="https://arrayinamatrix.xyz/res/site/banners/custom/white_176x62.png"></a>
+
+				<a href="https://zeul.ca"><img src="https://zeul.ca/media/zeul_88x31.png"></a>				
 				<br>
 			</div>
     	</div>
