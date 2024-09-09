@@ -4,3 +4,7 @@ fc.jpg
 and this is a demo of the TVC
 tvc1.gif
 tvc2.gif
+September 8th 2024: 
+The current status of this project is that I'm not gonna do TVC for a model rocket. I'm helping MACH do TVC for the liquid engine. 
+I realized TVC for model rockets is pretty easy and there's not much to learn. I already know about PIDs and stuff. The real learning would be simulating the rocket in MATLAB using state space 
+transfer functions from control systems. That would be an awesome project but I'll leave that one for later.
