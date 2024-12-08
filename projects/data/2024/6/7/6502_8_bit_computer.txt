@@ -6,4 +6,9 @@ The arduino on the bottom is being used as a logic analyzer to look at the data 
 <br>
 Redoing all the connections to give the data lines their own bus. Unfortunately the address lines will not get a bus because there's 16 of them.
 <br> <br>
-September 8th 2024: I've finally finished the data bus and the sorta address bus. That was a huge pain. 2.jpg There's still a lot more to do
+September 8th 2024: I've finally finished the data bus and the sorta address bus. That was a huge pain. 2.jpg There's still a lot more to do.
+<br><br>
+September 11th 2024: Pretty big milestone today. 1.gif
+<br>
+I've sadly moved on to other projects. I am not sure if I will come back to the 8 bit computer for a while :(
+3.jpg

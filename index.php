@@ -48,7 +48,7 @@
      			Hi, my name is Zeul, and this is my website. This
 				website is a place to put random things that I do. 
 				<a href="https://github.com/zeulewan/zeulewan.com"><font color="#1187FC">github.</font></a>
-				I host this on a raspberry pi in my basmenet.
+				I host this on a raspberry pi in my basement.
 				<br><br>
 
 				<!--<a href="blog/data/2022/8/27/1.jpeg"></a>-->
@@ -166,8 +166,7 @@
 									if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 										// Save new comments when submitted 
 										$mess = $_POST['message']; // These
-										$pattern = "/http|www|@|buy|promote|promotion|.com/i"; 
-										// lines get rid of scammers, blocks shit
+										$pattern = "/http|www|@|buy|promote|prices|price|promotion|.com|\r/i";										// lines get rid of scammers, blocks shit
 										$name = $_POST['name'];
 										$human = $_POST['human'];
 
